@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+}
+
+/* header */
+.box1{
+    height: 150px;
+    background-color: rgba(49, 106, 110, 0.993);
+     position: sticky; 
+    top: 0px;
+}
+.round{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 0px solid;
+    border-radius: 300px;
+}
+
+/* main */
+
+.box2{
+    height: 800px;
+    background-color: black;
+    margin-top: -10px;
+}
+.item{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+h4{
+    color: blueviolet;
+    
+}
+.title{
+    color: brown;
+    padding-left: 40px;
+}
+
+/* section */
+.container3{
+    height: 100px;
+    background-color: rgb(55, 93, 117);
+    margin-top: -20px;
+}
+.songbox{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    margin: 10px;
+    /* position: sticky;
+    bottom: 100px; */
+}
+.container4{
+    height: 50px;
+    background-color: rgb(55, 129, 115);
+    color: white;
+}
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+}

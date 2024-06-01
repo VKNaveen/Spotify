@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    column-gap: 10px;
+}
+
+.logo h1 {
+    font-weight: lighter;
+}
+
+.logo img {
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+}
+
+.logo img:hover {
+    transform: rotateY(360deg);
+}
+
+
+.signupcontainer{
+    display: flex;
+    justify-content: center;
+}
+.signupsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+
+}
+.signupsection input{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: greenyellow;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.signupsection input:hover{
+    box-shadow: 8px 8px 8px rgb(70, 70, 70);
+}
+.signupsection button{
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.signupsection button:hover{
+    box-shadow: 5px 5px 5px greenyellow;
+    color: greenyellow;
+    transform: rotateX(360deg);
+}
+.signupsection label{
+    font-weight: 600;
+}
+
+.signupsection a{
+    text-decoration: none;
+}
